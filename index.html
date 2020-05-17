@@ -13,16 +13,16 @@
     <script defer src="js/popper.min.js"></script>
     <script defer src="js/bootstrap.bundle.js"></script>
   </head>
-  <body class="container-sm container-md py-5">
+  <body class="container border border-primary">
     <!-- Header start -->
     <header
-      class="d-flex flex-column align-items-baseline align-items-md-baseline flex-md-row flex-sm-row justify-content-between justify-content-md-between"
+      class="shadow bg-info d-flex flex-column align-items-baseline sticky-top align-items-md-baseline flex-md-row flex-sm-row justify-content-between justify-content-md-between p-2"
     >
       <div>
         <h1>Daniel Silva Yanez</h1>
       </div>
 
-      <div class="d-flex">
+      <div class="d-flex font-weight-bolder">
         <div>
           <nav>
             <a href="#contactdetails">Contact</a>
@@ -42,121 +42,284 @@
     <main class="shadow">
       <!-- Photo and Skills area start -->
       <section id="profilepic">
-        <div class="container">
-          <div class="row d-flex flex-column flex-md-row flex-sm-row justify-content-between justify-content-md-between mt-2">
-            <div class="col">
-              <img
+        <div
+          class="row d-flex flex-column flex-md-row text-center flex-sm-row justify-content-between justify-content-md-between m-0"
+        >
+          <div class="col-12 col-md-6 border border-primary">
+            <img
               class="rounded-circle"
               src="/img/daniel-silva-yañez-foto.1024x1024.jpg"
               alt="profile picture of daniel"
               height="300"
               width="300"
-              />
-              <p class="mt-2">Dieses Foto wurde bei XING aufgenommen :-)</p>
-            </div>
-                 
-            <div class="col">
-              <div>
-                <h2>Skills</h2>
-                <div class="shadow bg-info border-dark rounded p-2">HTML</div>
-                <div class="shadow bg-info border-dark rounded p-2">CSS</div>
-                <div class="shadow bg-info border-dark rounded p-2">JS</div>
-                <div class="shadow bg-info border-dark rounded p-2">HTML</div>
-                <div class="shadow bg-info border-dark rounded p-2">CSS</div>
-                <div class="shadow bg-info border-dark rounded p-2">JS</div>
-                <div class="shadow bg-info border-dark rounded p-2">HTML</div>
-                <div class="shadow bg-info border-dark rounded p-2">CSS</div>
-                <div class="shadow bg-info border-dark rounded p-2">JS</div>
-              </div>
-            </div>
+            />
+            <p class="mt-2">"music is the key"</p>
+          </div>
+
+          <div class="col border border-primary">
+            <table>
+              <thead>
+                <th>Skills</th>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      CSS
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      JS
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      React
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table>
+              <thead>
+                <th>Interests</th>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                  <td>
+                    <div class="shadow bg-info border-dark rounded p-2">
+                      HTML
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-    </section>
+      </section>
 
       <!-- Photo and Skills area end -->
 
       <!-- Contact area start -->
 
       <section id="contactDetails">
-        <div class="container"></div>
-          <div class="row d-flex flex-column flex-md-row flex-sm-row justify-content-between justify-content-md-between">
-            <div class="col">
-              <p>Mobile Phone: 017649166600</p>
-            </div>
-            
-            <div class="col">
-              <p>E-Mail: daniel.silva@xing.com</p>
-            </div>
+        <div
+          class="row d-flex border border-primary flex-column flex-md-row justify-content-md-around justify-content-md-between h3 p-3 m-0"
+        >
+          <div class="col">
+            <p>Mobile Phone: 017649166600</p>
+          </div>
+
+          <div class="col">
+            <p>E-Mail: daniel.silva@xing.com</p>
           </div>
         </div>
       </section>
 
-    <!-- Social Media Links-->
-    <section id="socialmedia">
-      <div class="container"> 
-        <div class="row bg-info d-flex flex-column flex-md-row">
+      <!-- contact area end -->
+
+      <!-- Social Media Links-->
+      <section id="socialmedia">
+        <div
+          class="bg-info d-flex flex-column flex-md-row justify-content-between justify-content-md-between h3"
+        >
           <div class="col m-2">
-            <div class="card m-2">
-              <a href="https://github.com/danielsilvayanez" target="_blank"><img src="/img/github_PNG20.png" class="card-img-top img-fluid" alt="The github logo"></a>
+            <div class="card" style="width: 18rem;">
+              <a
+                href="https://github.com/danielsilvayanez"
+                target="_blank"
+                rel="“noopener"
+                noreferrer“
+                ><img
+                  src="/img/Octicons-mark-github.svg"
+                  class="card-img-top img-fluid"
+                  alt="The github logo"
+              /></a>
               <div class="card-body">
                 <h5 class="card-title">GitHub</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, at!</p>
+                <p class="card-text">
+                  My GitHub Account
+                </p>
               </div>
             </div>
           </div>
           <div class="col m-2">
-            <div class="card m-2">
-              <a href="https://codepen.io/pen/" target="_blank"><img src="/img/Button-Fill-Black-Large.png" class="card-img-top img-fluid" alt="The codepen logo."></a>
+            <div class="card" style="width: 18rem;">
+              <a
+                href="https://codepen.io/pen/"
+                target="_blank"
+                rel="“noopener"
+                noreferrer“
+                ><img
+                  src="/img/codepen-logo.svg"
+                  class="card-img-top img-fluid"
+                  alt="The codepen logo."
+              /></a>
               <div class="card-body">
                 <h5 class="card-title">CodePen</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, totam?</p>
+                <p class="card-text">
+                  My CodePen Account
+                </p>
               </div>
             </div>
           </div>
           <div class="col m-2">
-            <div class="card m-2">
-              <a href="https://www.xing.com/profile/Daniel_SilvaYanez/portfolio" target="_blank"><img src="/img/XING_logo_RGB.png" class="card-img-top img-fluid" alt="the xing logo"></a>
+            <div class="card" style="width: 18rem;">
+              <a
+                href="https://www.xing.com/profile/Daniel_SilvaYanez/portfolio"
+                rel="“noopener"
+                noreferrer“
+                target="_blank"
+                ><img
+                  src="/img/xing.svg"
+                  class="card-img-top img-fluid"
+                  alt="the xing logo"
+              /></a>
               <div class="card-body">
                 <h5 class="card-title">XING</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, at.</p>
+                <p class="card-text">
+                  My XING Account
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Social Media links ends here-->
+      </section>
+      <!-- Social Media links ends here-->
 
-   <!-- About yourself, and CV area starts here-->
-    <section id="bio">
-      <div class="container">
-        <div class="row d-flex flex-column flex-md-row flex-sm-row justify-content-between justify-content-md-between mt-2">
-          <div class="col">
-          <H2>ABOUT ME</H2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam porro eum voluptatem consequatur atque veniam officia magni dolorum, doloribus architecto ratione dolore sed? Quasi aspernatur ipsum ducimus eligendi vel accusantium?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam porro eum voluptatem consequatur atque veniam officia magni dolorum, doloribus architecto ratione dolore sed? Quasi aspernatur ipsum ducimus eligendi vel accusantium?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam porro eum voluptatem consequatur atque veniam officia magni dolorum, doloribus architecto ratione dolore sed? Quasi aspernatur ipsum ducimus eligendi vel accusantium?</p>
+      <!-- About yourself, and CV area starts here-->
+      <section id="bio">
+        <div
+          class="row d-flex flex-column flex-md-row justify-content-between justify-content-md-between m-0"
+        >
+          <div class="col p-2 border border-primary">
+            <h2>ABOUT ME</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam porro eum voluptatem consequatur atque veniam officia
+              magni dolorum, doloribus architecto ratione dolore sed? Quasi
+              aspernatur ipsum ducimus eligendi vel accusantium?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam porro eum voluptatem consequa tur atque veniam officia
+              magni dolorum, doloribus architecto ratione dolore sed? Quasi
+              aspernatur ipsum ducimus eligendi vel accusantium?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam porro eum voluptatem consequatur atque veniam officia
+              magni dolorum, doloribus architecto ratione dolore sed? Quasi
+              aspernatur ipsum ducimus eligendi vel accusantium?
+            </p>
           </div>
 
-          <div class="col">
-            <H2>Berufserfahrung</H2>
-            <p><ul>
-              <li>May 2020 - August 2020 - Trainee - neuefische GmbH</li>
-              <li>March 2017 - April 2020 - Teamlead - XING -UserCare - Paid Memberships</li>
-              <li>Jan 2014 - February 2017 - Teamlead - XING -UserCare - Quality and Security</li>
-            </ul></p>
+          <div class="col border border-primary">
+            <table class="table mt-2">
+              <thead class="thead-light p-2">
+                <tr>
+                  <th scope="col" colspan="4" style="font-size: 24px;">
+                    Berufserfahrung
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>May 2020 - August 2020</td>
+                  <td>Trainee bei neuefische GmbH</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>
+                    March 2017 - April 2020
+                  </td>
+                  <td>
+                    Teamlead UserCare - Paid Memberships
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>
+                    January 2014 - February 2017
+                  </td>
+                  <td>
+                    Teamlead UserCare - Quality and Security
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-      </div>
- 
-    </section>
+      </section>
 
-   <!-- About yourself, and CV ends here-->
-
-
+      <!-- About yourself, and CV ends here-->
     </main>
     <!-- Main ends here-->
 
-    <footer class="bg-info mt-5">&copy This page was more or less successfull created by Dan</footer>
+    <footer
+      class="row bg-info d-flex flex-column flex-md-row justify-content-between justify-content-md-between m-0 p-2 mt-2"
+    >
+      <div>
+        &copy This page was more or less successfully created by Dan
+      </div>
+    </footer>
   </body>
 </html>
